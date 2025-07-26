@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylar Muscat | Artist from Maidstone</title>
+    <meta name="description" content="Meet Skylar Muscat, a 16-year-old musician and artist from Maidstone, UK. Discover his music, vision, and the stories behind his work.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom styles for applying fonts and effects */
+        body {
+            background-color: #111111;
+            color: #E0E0E0;
+            font-family: 'Imbue', serif;
+        }
+        .font-imbue {
+            font-family: 'Imbue', serif;
+        }
+        .font-instrument-serif {
+            font-family: 'Instrument Serif', serif;
+        }
+        /* Glassmorphism effect for the header */
+        .glass-header {
+            background-color: rgba(17, 17, 17, 0.6); /* Semi-transparent background */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px); /* For Safari */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        /* Simple text shadow for better readability on hero image */
+        .hero-text-shadow {
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        /* The hero background image container */
+        #hero-section {
+            background-image: url('hero.JPG'); /* Make sure you have an image named hero.JPG */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Creates the parallax effect */
+        }
+        /* Hide scrollbar when lightbox is open */
+        .lightbox-open {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<header id="header" class="fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-5xl mx-auto p-4 rounded-xl glass-header z-50 transition-all duration-300">
+    <div class="grid grid-cols-3 items-center">
+        <div></div>
+        <div class="text-center text-2xl md:text-3xl font-bold tracking-wider font-imbue">
+            Skylar Muscat
+        </div>
+        <a href="https://www.instagram.com/skymuscat666" aria-label="Instagram Profile" class="justify-self-end text-white hover:text-gray-300 transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</header>
+
+<main>
+    <section id="hero-section" class="h-screen w-full flex items-center justify-center text-center text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/40"></div> <div class="relative z-10 px-4">
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-instrument-serif font-bold hero-text-shadow">The World Through My Eyes</h1>
+            <p class="mt-4 text-xl md:text-2xl font-instrument-serif tracking-wide hero-text-shadow">A 16-Year-Old Artist from Maidstone</p>
+        </div>
+    </section>
+
+    <section id="about" class="bg-zinc-200 text-zinc-900 py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center flex flex-col items-center space-y-12">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-bold font-imbue">Hello, I'm Skylar Muscat</h2>
+                <p class="mt-2 text-xl md:text-2xl font-light font-imbue">Musician, Creator, and Storyteller</p>
+            </div>
+            <hr class="w-24 border-t-2 border-zinc-400">
+            <div class="text-lg md:text-xl font-instrument-serif text-left space-y-4 max-w-2xl">
+                <p>
+                    Based in <strong>Maidstone, England</strong>, I'm a 16-year-old musician driven by a passion to translate my unique perspective of the world into sound. For me, music is more than just melody and rhythm; it's a canvas for storytelling and a vehicle for exploring the complex emotions that define the human experience.
+                </p>
+                <p>
+                    My sound is a blend of raw, atmospheric rock and melancholic metal, drawing inspiration from legends like Ozzy Osbourne and Jeff Buckley. I focus on creating immersive soundscapes that explore themes of life, mortality, and the often-unseen beauty in darkness. Every note and lyric is a reflection of my personal journey and observations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="music" class="bg-[#111111] text-white py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center flex flex-col items-center space-y-12">
+             <div>
+                <h2 class="text-5xl md:text-7xl font-bold font-imbue">Dancing with Death</h2>
+                <p class="mt-2 text-xl md:text-2xl font-light font-imbue">Upcoming Project - Releasing 2026</p>
+            </div>
+             <hr class="w-24 border-t-2 border-zinc-600">
+            <div class="text-lg md:text-xl font-instrument-serif text-left space-y-4 max-w-2xl">
+                <p>
+                    My current project, <strong>"Dancing with Death"</strong>, is a conceptual piece that delves into the delicate relationship between existence and finality. It's not a morbid fascination, but rather an honest exploration of mortality as a source of meaning and inspiration.
+                </p>
+                <p>
+                    Through this work, I aim to challenge listeners to confront their own perceptions. The music is crafted to be both haunting and beautiful, combining heavy guitar riffs with ethereal vocals and atmospheric arrangements. It’s a sonic diary of my thoughts on legacy, loss, and the eternal waltz we all share with fate.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="bg-zinc-200 py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center text-5xl md:text-7xl font-bold font-imbue mb-12 text-zinc-900">Gallery</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo1.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/222/FFF?text=Photo+1';" alt="Gallery image 1" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo2.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/333/FFF?text=Photo+2';" alt="Gallery image 2" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo3.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/444/FFF?text=Photo+3';" alt="Gallery image 3" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo4.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/555/FFF?text=Photo+4';" alt="Gallery image 4" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo5.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/666/FFF?text=Photo+5';" alt="Gallery image 5" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo6.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/777/FFF?text=Photo+6';" alt="Gallery image 6" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo7.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/888/FFF?text=Photo+7';" alt="Gallery image 7" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+                <div class="group aspect-square overflow-hidden rounded-lg shadow-lg cursor-pointer">
+                    <img src="gallery/photo8.JPG" onerror="this.onerror=null;this.src='https://placehold.co/600x600/999/FFF?text=Photo+8';" alt="Gallery image 8" class="gallery-item w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div id="lightbox" class="fixed inset-0 bg-black/90 flex items-center justify-center p-4 z-[100] hidden transition-opacity duration-300 ease-in-out">
+    <img id="lightbox-img" src="" alt="Expanded view" class="max-w-[95vw] max-h-[90vh] object-contain rounded-lg">
+    <button id="lightbox-close" aria-label="Close image view" class="absolute top-6 right-6 text-white text-5xl font-bold hover:text-gray-300 transition-colors">&times;</button>
+</div>
+
+<footer class="bg-[#111111] text-white text-center py-10 px-4">
+    <p class="text-lg font-imbue">&copy; <a href="#" class="hover:underline">Skylar Muscat</a> <script>document.write(new Date().getFullYear());</script></p>
+    <p class="text-md font-imbue mt-1 opacity-70">All Rights Reserved</p>
+</footer>
+
+<script>
+    // Simple script to add a subtle scroll effect to the header
+    let lastScrollTop = 0;
+    const header = document.getElementById('header');
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        // On scroll down, the header becomes slightly smaller and more transparent
+        if (scrollTop > lastScrollTop && scrollTop > 100) {
+            header.classList.add('top-2', 'opacity-80');
+            header.classList.remove('top-4', 'opacity-100');
+        } else { // On scroll up, it returns to its original state
+            header.classList.add('top-4', 'opacity-100');
+            header.classList.remove('top-2', 'opacity-80');
+        }
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    }, false);
+
+
+    // --- Lightbox Gallery Script ---
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    const openLightbox = (imgSrc) => {
+        lightboxImg.src = imgSrc;
+        lightbox.classList.remove('hidden');
+        document.body.classList.add('lightbox-open'); // Disable body scroll
+    };
+
+    const closeLightbox = () => {
+        lightbox.classList.add('hidden');
+        document.body.classList.remove('lightbox-open'); // Re-enable body scroll
+    };
+
+    galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            openLightbox(item.src);
+        });
+    });
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+            closeLightbox();
+        }
+    });
+</script>
+
+</body>
+</html>
